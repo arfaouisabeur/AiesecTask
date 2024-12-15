@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AiesecTask/static/css/main.91309118.css",
+    "main.js": "/AiesecTask/static/js/main.daac5463.js",
+    "static/js/488.9c92ff38.chunk.js": "/AiesecTask/static/js/488.9c92ff38.chunk.js",
+    "index.html": "/AiesecTask/index.html",
+    "main.91309118.css.map": "/AiesecTask/static/css/main.91309118.css.map",
+    "main.daac5463.js.map": "/AiesecTask/static/js/main.daac5463.js.map",
+    "488.9c92ff38.chunk.js.map": "/AiesecTask/static/js/488.9c92ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91309118.css",
+    "static/js/main.daac5463.js"
+  ]
+}
