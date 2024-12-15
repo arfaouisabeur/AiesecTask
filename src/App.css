@@ -1,0 +1,101 @@
+/* styles.css */
+
+/* General reset */
+body, h1, h2, div, canvas {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9; /* Light gray background for better contrast */
+  color: #333; /* Darker text color for readability */
+  line-height: 1.6;
+}
+
+/* Main container */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title styling */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #3f51b5; /* Primary color */
+}
+
+
+/* Add styles for the button inside the link */
+.styled-button {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.styled-button input[type="button"] {
+    font-size: 14px;
+    color: white;
+    background-color: #3f51b5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.styled-button input[type="button"]:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+
+/* Chart container */
+.chart-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.chart-container:hover {
+  transform: scale(1.02); /* Subtle hover effect */
+}
+
+.chart-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #3f51b5;
+}
+
+/* Canvas Styling */
+canvas {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .chart-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .chart-container {
+    padding: 15px;
+  }
+}
